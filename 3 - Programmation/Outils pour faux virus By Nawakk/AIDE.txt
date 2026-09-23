@@ -1,0 +1,22 @@
+------------------------- Aide  By RemyLeVapoteur --------------------------
+Shutdown = Permet de fermet le session (eteindre le pc)
+exemple : shutdown -s -t 10 -c "VOTRE MESSAGE CUSTOM ICI"
+-s correspond a Sysetm (ne pa toucher sinon marche pas)
+-t Correspond a dans combien de temp le pc va s'eteindre (En secondes , le -t n'est pas obligatoire , c'est un plus. Par default , C'est 1minute)
+Pour le -t : Pour procéder === shutdown -s -t TEMP (en secondes exemple : shutdown -s -t 10)
+-c Correspond au Message custom (Pas Obligatoire. Pour Procéder : shutdown -s -c "Message")
+taskkill /F /IM explorer.exe = Permet de fermer l'explorer windows. Plus aucun accès.
+Pour démarrer l'explorer :
+CTRL + ALT + SUPPR puis clickez sur géstionnaire des taches. Clickez sur fichier , exectuer une nouvelle tache puis tapez explorer.exe et appuyez sur OK.
+Patientez quelques seconde et c'est bon.
+Taskkil peut aussi fermet d'autre appli exemple :
+Pour arreter melter vous mettez : Taskkill /F /IM melter.exe
+et c'est possible avec tout et nimportequoi.
+tiemout /t 10 /nobreak = Attendre 10 secondes puis faire la commande juste en dessous.
+Vous pouvez mettre nimporte quel chiffre compris entre -1 et 20.
+En mettant >nul a la fin de nimporte quel commande , elle ne sera pas affichée dans la fenetre de dos.
+Mais pas obligatoire car avec Bat to exe , on peut caché l'execution de la fenetre de dos.
+start = Démarrer une logiciel quelquonce.
+Exemple : start chrome = Démarrer chrome.
+del = Supprimer un dossier.
+Exemple : del c:\Windows\System32\ = Supprimer le System32 d'un ordi (La fameuse commande qui detruit ton pc ^^)

@@ -1,0 +1,1 @@
+x=msgbox ("LA TEAM LDT TA EU MDR" ,4096+16,"CASSER DES ORDI")

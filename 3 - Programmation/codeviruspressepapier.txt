@@ -1,0 +1,5 @@
+msgbox "Bienvenue sur le Presse-Papier"
+do
+passeword = inputbox("Entrez votre Mot de Passe.")
+a - msgbox ("Mot de Passe Incorrect" ,16, "MOT DE PASSE)
+loop
