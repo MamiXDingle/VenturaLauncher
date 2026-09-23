@@ -1,0 +1,13 @@
+msgbox ("Bienvenue sur SNGProduct Node")
+msgbox ("Commencer par vous incrire")
+login = inputbox(" Entrez votre Adresse e-mail")
+login = inputbox("Entrez votre Mot de Passe")
+msgbox ("Cliquez sur OK pour vous s'inscrire")
+msgbox ("Comment devons nous vous appellez ?")
+pseudo = inputbox ("Entrez votre Pseudo")
+msgbox ("Quelle Joli Pseudo !")
+msgbox ("Nous allons Proceder a la fin de l'inscription")
+nom = inputbox ("Entrez votre Nom")
+prenom = inputbox ("Entrez votre Prénom")
+msgbox ("Veuillez Copier le lien quand vous cliquez sur OK")
+open wx.txt

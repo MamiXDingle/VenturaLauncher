@@ -1,0 +1,5 @@
+inputbox ("Ecrivez l'emplacement du Jeux.")
+inputbox ("Combien Souhaitez vous de Pieces ?")
+inputbox ("Souhaitez vous Retirer les Pubs ?")
+inputbox ("Sur quelle systeme êtes vous ?")
+msgbox ("Cliquez sur ok pour Commencer.")
