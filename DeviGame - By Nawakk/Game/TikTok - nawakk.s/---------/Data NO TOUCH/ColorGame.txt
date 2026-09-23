@@ -1,0 +1,9 @@
+Couleur 1 Blue
+Couleur 2 Green
+Couleur 3 Blue Clair
+Couleur 4 Red
+Couleur 5 Purple
+Couleur 6 Yellow
+Couleur 7 Grey Clair
+Couleur 8 Grey
+Couleur 9 Blue Marine
